@@ -13,7 +13,8 @@
           "Microsoft.AspNetCore.Identity.UI": "8.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.5",
-          "TestForum.Data": "1.0.0"
+          "TestForum.Data": "1.0.0",
+          "TestForum.Service": "1.0.0"
         },
         "runtime": {
           "TestForum.dll": {}
@@ -970,6 +971,14 @@
         "runtime": {
           "TestForum.Data.dll": {}
         }
+      },
+      "TestForum.Service/1.0.0": {
+        "dependencies": {
+          "TestForum.Data": "1.0.0"
+        },
+        "runtime": {
+          "TestForum.Service.dll": {}
+        }
       }
     }
   },
@@ -1575,6 +1584,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "TestForum.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestForum.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

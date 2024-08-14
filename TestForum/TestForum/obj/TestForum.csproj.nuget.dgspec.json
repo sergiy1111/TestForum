@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\home\\source\\repos\\TestForum\\TestForum\\TestForum.csproj": {}
+    "D:\\GitCon\\TestForum\\TestForum\\TestForum\\TestForum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {
+    "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
+        "projectUniqueName": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
         "projectName": "TestForum.Data",
-        "projectPath": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
+        "projectPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\obj\\",
+        "outputPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\home\\source\\repos\\TestForum\\TestForum\\TestForum.csproj": {
+    "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\TestForum.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum\\TestForum.csproj",
-        "projectName": "TestForum",
-        "projectPath": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum\\TestForum.csproj",
+        "projectUniqueName": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\TestForum.Service.csproj",
+        "projectName": "TestForum.Service",
+        "projectPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\TestForum.Service.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum\\obj\\",
+        "outputPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,8 +106,76 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {
-                "projectPath": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj"
+              "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {
+                "projectPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitCon\\TestForum\\TestForum\\TestForum\\TestForum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\TestForum.csproj",
+        "projectName": "TestForum",
+        "projectPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\TestForum.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {
+                "projectPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj"
+              },
+              "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\TestForum.Service.csproj": {
+                "projectPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\TestForum.Service.csproj"
               }
             }
           }

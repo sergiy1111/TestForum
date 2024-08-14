@@ -249,7 +249,7 @@ namespace TestForum.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Forum");
+                    b.ToTable("Forums");
                 });
 
             modelBuilder.Entity("TestForum.Data.Models.Post", b =>
@@ -284,7 +284,7 @@ namespace TestForum.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Post");
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("TestForum.Data.Models.PostReply", b =>
@@ -315,7 +315,7 @@ namespace TestForum.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("PostReply");
+                    b.ToTable("PostReplys");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {}
+    "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {
+    "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
+        "projectUniqueName": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
         "projectName": "TestForum.Data",
-        "projectPath": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
+        "projectPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\TestForum.Data.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\source\\repos\\TestForum\\TestForum.Data\\obj\\",
+        "outputPath": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",

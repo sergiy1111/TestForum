@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TestForum.Data\TestForum.Data.csproj" />
+    <ProjectReference Include="..\TestForum.Service\TestForum.Service.csproj" />
   </ItemGroup>
 
 </Project>

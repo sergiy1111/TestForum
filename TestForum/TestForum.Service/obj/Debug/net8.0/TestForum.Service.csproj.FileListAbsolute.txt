@@ -1,0 +1,15 @@
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.csproj.AssemblyReference.cache
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.AssemblyInfoInputs.cache
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.AssemblyInfo.cs
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.csproj.CoreCompileInputs.cache
+D:\GitCon\TestForum\TestForum\TestForum.Service\bin\Debug\net8.0\TestForum.Service.deps.json
+D:\GitCon\TestForum\TestForum\TestForum.Service\bin\Debug\net8.0\TestForum.Service.dll
+D:\GitCon\TestForum\TestForum\TestForum.Service\bin\Debug\net8.0\TestForum.Service.pdb
+D:\GitCon\TestForum\TestForum\TestForum.Service\bin\Debug\net8.0\TestForum.Data.dll
+D:\GitCon\TestForum\TestForum\TestForum.Service\bin\Debug\net8.0\TestForum.Data.pdb
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForu.8A56652B.Up2Date
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.dll
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\refint\TestForum.Service.dll
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.pdb
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\ref\TestForum.Service.dll

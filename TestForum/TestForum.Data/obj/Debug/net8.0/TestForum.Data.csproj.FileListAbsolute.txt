@@ -12,3 +12,17 @@ C:\Users\home\source\repos\TestForum\TestForum.Data\obj\Debug\net8.0\refint\Test
 C:\Users\home\source\repos\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.pdb
 C:\Users\home\source\repos\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.genruntimeconfig.cache
 C:\Users\home\source\repos\TestForum\TestForum.Data\obj\Debug\net8.0\ref\TestForum.Data.dll
+D:\GitCon\TestForum\TestForum\TestForum.Data\bin\Debug\net8.0\TestForum.Data.deps.json
+D:\GitCon\TestForum\TestForum\TestForum.Data\bin\Debug\net8.0\TestForum.Data.runtimeconfig.json
+D:\GitCon\TestForum\TestForum\TestForum.Data\bin\Debug\net8.0\TestForum.Data.dll
+D:\GitCon\TestForum\TestForum\TestForum.Data\bin\Debug\net8.0\TestForum.Data.pdb
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.csproj.AssemblyReference.cache
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.AssemblyInfoInputs.cache
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.AssemblyInfo.cs
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.csproj.CoreCompileInputs.cache
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.dll
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\refint\TestForum.Data.dll
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.pdb
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.genruntimeconfig.cache
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\ref\TestForum.Data.dll
