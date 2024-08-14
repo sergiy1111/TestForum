@@ -20,8 +20,4 @@
     <ProjectReference Include="..\TestForum.Service\TestForum.Service.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Post\" />
-  </ItemGroup>
-
 </Project>

@@ -1,0 +1,40 @@
+﻿@model TestForum.Models.Forum.ForumTopicModel
+
+<h1>Welcome to @Model.Forum.Title Forum</h1>
+
+@if(Model.Posts.Any())
+{
+    <table class="table table-bordered table-hover">
+        @foreach(var post in Model.Posts)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Post" asp-action="Index" asp-route-id="@post.Id">
+                        @post.Title
+                    </a>
+                </td>
+                <td>
+                    @post.AuthorName
+                </td>
+                <td>
+                    @post.DatePosted
+                </td>
+                <td>
+                    @post.RepliesCount
+                </td>
+            </tr>
+        }
+    </table>
+}
+else{
+    <div class="noPosts">
+        <h3>
+            It look like we dont have posts in @Model.Forum.Title now. <br />
+            <a asp-controller="Post" asp-action="Create" asp-route-id="@Model.Forum.Id">
+                <span>
+                    You can try to create one
+                </span>
+            </a> 
+        </h3>
+    </div>
+}
