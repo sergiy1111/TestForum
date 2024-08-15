@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using TestForum.Data;
 using TestForum.Data.Models;
 using TestForum.Models.Post;
@@ -8,9 +9,15 @@ namespace TestForum.Controllers
     public class PostController : Controller
     {
         private readonly IPost _postService;
-        public PostController(IPost postService) 
+        private readonly IForum _forumService;
+
+        public static UserManager<ApplicationUser> _userManager;
+
+        public PostController(IPost postService, IForum forumService, UserManager<ApplicationUser> userManager)
         {
             _postService = postService;
+            _forumService = forumService;
+            _userManager = userManager;
         }
 
         public IActionResult Index(int id)
@@ -21,7 +28,7 @@ namespace TestForum.Controllers
             var model = new PostIndexModel
             {
                 Id = post.Id,
-                Title= post.Title,
+                Title = post.Title,
                 AuthorId = post.User.Id,
                 AuthorName = post.User.UserName,
                 AuthorImageUrl = post.User.ProfileImageUrl,
@@ -32,6 +39,46 @@ namespace TestForum.Controllers
             };
 
             return View(model);
+        }
+
+        public IActionResult Create(int id)
+        {
+            var forum = _forumService.GetById(id);
+
+            var model = new NewPostModel
+            {
+                ForumId = forum.Id,
+                ForumName = forum.Title,
+                ForumImageUrl = forum.ImageUrl,
+                AuthorName = User.Identity.Name
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddPost(NewPostModel model)
+        {
+            var userId = _userManager.GetUserId(User);
+            var user = _userManager.FindByIdAsync(userId).Result;
+            var post = BuildModel(model, user);
+
+            _postService.Add(post).Wait();
+
+            return RedirectToAction("Index", "Post", new { id = post.Id } );
+        }
+
+        private Post BuildModel(NewPostModel model, ApplicationUser? user)
+        {
+            Forum forum = _forumService.GetById(model.ForumId);
+            return new Post
+            {
+                Title = model.Title,
+                Content = model.Content,
+                Created= DateTime.Now,
+                User = user,
+                Forum = forum
+            };
         }
 
         private IEnumerable<PostReplyModel> BuildPostReplies(IEnumerable<PostReply> replies)

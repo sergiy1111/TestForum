@@ -3,61 +3,28 @@
   "WorkspaceRootPath": "D:\\GitCon\\TestForum\\TestForum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACDE770-9427-40F9-B11C-6FD20C139BF6}|TestForum.Service\\TestForum.Service.csproj|d:\\gitcon\\testforum\\testforum\\testforum.service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACDE770-9427-40F9-B11C-6FD20C139BF6}|TestForum.Service\\TestForum.Service.csproj|solutionrelative:testforum.service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestForumDB/True/SqlTable/dbo.Posts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestForumDB/True/SqlTable/dbo.Forums.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestForumDB/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Migrations\\20240814225034_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestForum.Data\\Migrations\\20240814225034_9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|d:\\gitcon\\testforum\\testforum\\testforum.data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|solutionrelative:testforum.data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2ACDE770-9427-40F9-B11C-6FD20C139BF6}|TestForum.Service\\TestForum.Service.csproj|d:\\gitcon\\testforum\\testforum\\testforum.service\\forumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACDE770-9427-40F9-B11C-6FD20C139BF6}|TestForum.Service\\TestForum.Service.csproj|solutionrelative:testforum.service\\forumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|d:\\gitcon\\testforum\\testforum\\testforum.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|solutionrelative:testforum.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\models\\post\\postreplymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\models\\post\\postreplymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACDE770-9427-40F9-B11C-6FD20C139BF6}|TestForum.Service\\TestForum.Service.csproj|d:\\gitcon\\testforum\\testforum\\testforum.service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACDE770-9427-40F9-B11C-6FD20C139BF6}|TestForum.Service\\TestForum.Service.csproj|solutionrelative:testforum.service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\models\\post\\postindexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\models\\post\\postindexmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|d:\\gitcon\\testforum\\testforum\\testforum.data\\migrations\\20240814223736_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|solutionrelative:testforum.data\\migrations\\20240814223736_8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|d:\\gitcon\\testforum\\testforum\\testforum.data\\migrations\\20240814223322_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|solutionrelative:testforum.data\\migrations\\20240814223322_7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,188 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20240814223736_8.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Migrations\\20240814223736_8.cs",
-              "RelativeDocumentMoniker": "TestForum.Data\\Migrations\\20240814223736_8.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Migrations\\20240814223736_8.cs",
-              "RelativeToolTip": "TestForum.Data\\Migrations\\20240814223736_8.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T22:37:36.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240814223322_7.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Migrations\\20240814223322_7.cs",
-              "RelativeDocumentMoniker": "TestForum.Data\\Migrations\\20240814223322_7.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Migrations\\20240814223322_7.cs",
-              "RelativeToolTip": "TestForum.Data\\Migrations\\20240814223322_7.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T22:33:22.772Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TestForum.Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TestForum.Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T22:31:52.092Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestForumDB/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-14T22:29:41.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "TestForum\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "TestForum\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T22:47:23.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Post\\Index.cshtml",
-              "RelativeDocumentMoniker": "TestForum\\Views\\Post\\Index.cshtml",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Post\\Index.cshtml",
-              "RelativeToolTip": "TestForum\\Views\\Post\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-14T22:22:22.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "TestForum\\Controllers\\PostController.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\PostController.cs",
-              "RelativeToolTip": "TestForum\\Controllers\\PostController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwCEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T21:48:46.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "TestForum.Data\\Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "TestForum.Data\\Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T22:35:22.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Program.cs",
               "RelativeDocumentMoniker": "TestForum\\Program.cs",
               "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Program.cs",
               "RelativeToolTip": "TestForum\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T22:32:34.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T00:42:25.813Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20240814225034_9.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Migrations\\20240814225034_9.cs",
-              "RelativeDocumentMoniker": "TestForum.Data\\Migrations\\20240814225034_9.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\Migrations\\20240814225034_9.cs",
-              "RelativeToolTip": "TestForum.Data\\Migrations\\20240814225034_9.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T22:50:35.099Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\appsettings.json",
+              "RelativeDocumentMoniker": "TestForum\\appsettings.json",
+              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\appsettings.json",
+              "RelativeToolTip": "TestForum\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T00:42:23.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.Posts [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestForumDB/True/SqlTable/dbo.Posts.sql",
-              "ToolTip": "dbo.Posts [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-14T22:53:03.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Forums [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TestForumDB/True/SqlTable/dbo.Forums.sql",
-              "ToolTip": "dbo.Forums [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-14T22:53:17.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "PostService.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\PostService.cs",
               "RelativeDocumentMoniker": "TestForum.Service\\PostService.cs",
               "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\PostService.cs",
               "RelativeToolTip": "TestForum.Service\\PostService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAowCsAAAA0AAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T22:16:26.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PostReplyModel.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Models\\Post\\PostReplyModel.cs",
-              "RelativeDocumentMoniker": "TestForum\\Models\\Post\\PostReplyModel.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Models\\Post\\PostReplyModel.cs",
-              "RelativeToolTip": "TestForum\\Models\\Post\\PostReplyModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T21:58:53.489Z",
+              "WhenOpened": "2024-08-15T00:41:41.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PostIndexModel.cs",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Models\\Post\\PostIndexModel.cs",
-              "RelativeDocumentMoniker": "TestForum\\Models\\Post\\PostIndexModel.cs",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Models\\Post\\PostIndexModel.cs",
-              "RelativeToolTip": "TestForum\\Models\\Post\\PostIndexModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "DocumentIndex": 3,
+              "Title": "ForumService.cs",
+              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\ForumService.cs",
+              "RelativeDocumentMoniker": "TestForum.Service\\ForumService.cs",
+              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\ForumService.cs",
+              "RelativeToolTip": "TestForum.Service\\ForumService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T21:55:42.488Z",
+              "WhenOpened": "2024-08-15T00:41:39.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TestForum\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TestForum\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T00:41:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestForum\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TestForum\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwDAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T00:22:47.763Z",
               "EditorCaption": ""
             }
           ]
