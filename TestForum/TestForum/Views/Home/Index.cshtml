@@ -5,11 +5,11 @@
         <div class ="col-md-6 frontPageLearn ">
             <div>
                 <div class="frontPageHeading">We happy to see you</div>
-                <p class="frontPageSubHeading">Some test text</p>l
+                <p class="frontPageSubHeading">Some test text</p>
             </div>
             <div>
                 <form asp-controller="Search" asp-action="Search" method="post">
-                    <input asp-for="SearchQuery" type="text" class="HomeSearch" placeholder="Search"/>
+                    <input asp-for="SearchQuery" type="text" class="homeSearch" placeholder="Search"/>
                 </form>
             </div>
         </div>
@@ -23,7 +23,7 @@
                 {
                     <tr>
                         <td>
-                            <div class="forumLogo" style="background-image: url (@post.Forum.ImageUrl); background-size=100%"></div>
+                            <div class="forumLogo" style="background-image: url (@post.Forum.ImageUrl);"></div>
                             <div class="postTitle">
                                 <a asp-controller="Post" asp-action="Index"asp-route-id="@post.Id">
                                     @post.Title
@@ -38,9 +38,9 @@
                                 {
                                     <span>No relpies</span>
                                 }
-                                els
+                                else
                                 {
-                                <span>@post.RepliesCount replies</span>
+                                    <span>@post.RepliesCount replies</span>
                                 }
                                 <span class="postUser">
                                     <a asp-controller="Profile" asp-action="Detail" asp-route-id="@post.AuthorId">@post.AuthorName</a>

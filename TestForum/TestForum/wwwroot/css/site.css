@@ -1,22 +1,238 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+  padding: 0 0 20px 0;
+  background-color: #EEE;
+  background-image: url("/images/theme/bg-01.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar {
+
+}
+
+.navbar li{
+    margin-right: 10pt;
+    margin-left: 10pt;
+    font-weight: bold;
+
+}
+
+.sectionHeader{
+    background-color: rgba(0, 0, 0, 0, 9);
+    padding: 8px 0 24px 24px;
+}
+
+.sectionHeading{
+    color: white;
+    font-size: 1.3em;
+    font-family: Roboto;
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid #335;
+    margin-bottom: 12px;
+}
+
+.postHeading{
+    color: white;
+    font-size: 1.1em;
+    font-family: Roboto;
+    padding: 16px 0 16px 0;
+}
+
+.sectionInfo{
+    height: 400px;
+    color: white;
+}
+
+.frontPageSplash {
+    background-image: url("../images/theme/font-splash.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+}
+
+.frontPageLearn{
+    font-family: Roboto;
+    padding: 12px 0 0 32px;
+    height: 360px;
+}
+
+.sectionDescription {
+    color: #EEE;
+}
+
+.frontPageHeading{
+    font-size: 3.2em;
+    margin: 16px;
+}
+
+.frontPageSubHeading {
+    font-size: 2em;
+    margin: 16px;
+}
+
+.frontPageTopContainer {
+    padding: 40px 80px 42px 40px;
+    border: 1px solid #999;
+    background-color: #256905;
+    font-family: Roboto;
+}
+
+frontPageSubContainer {
+    font-size: 2em;
+}
+
+.homeSearch{
+    width: 100%;
+    margin-top: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border: 0px;
+    height: 2.3em;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    transition: ease-in 0.2s;
+    height: 70px;
+}
+
+    .homeSearch:focus {
+        border: none !important;
+        outline: none !important;
+        transition: ease-in 0.2s;
+        color: #032aa9;
+        background-color: rgba(0, 0, 0, 0.7);
+        box-shadow: 0 5px 4px -6px #000;
+    }
+
+.frontPageContent{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16px;
+}
+
+#latestsPosts{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 4px 0 16px 0;
+}
+
+.navLogo {
+    background-image: url("/images/app-logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 16px;
+    width: 150px;
+    margin-right: 12px;
+}
+
+.body-content {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+/*Post page*/
+
+.postTitle{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.postSubTitle{
+    color: #888;
+    font-family: Roboto;
+    font-size: 0.8em;
+}
+
+.postData{
+    display: inline-block;
+}
+
+.postData{
+    color: #888;
+    font-family: Roboto;
+    font-size: 0.8em;
+}
+
+.postLogo{
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #ddd;
+}
+
+/*Forum Index*/
+
+#forumIndexTab td{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#forumIndexTale tr:hover{
+    background-color: rgba(0, 116, 238, 1);
+}
+
+.forumData{
+    display: inline-block;
+}
+
+.forumTitle{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.forumSubTitle{
+    color: #888;
+    font-family: Roboto;
+    font-size: 1.1em;
+}
+
+.forumDescription{
+    color: #555;
+    font-family: Roboto;
+}
+
+.forumLogo{
+    border: 1px solid #555;
+    border-radius: 3px;
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #DDD;
+    background-size: 100%;
+}
+
+.forumPostCount{
+    color: #888;
+    font-family: Roboto;
+    font-size: 0.9em;
+}
+
+.forumMemberCount {
+    color: #888;
+    font-family: Roboto;
+    font-size: 0.9em;
+}
+
+#forumIndexContent{
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.noPosts{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Roboto;
+}
+
+/*Post*/
+
+.createPostSection{
+    background-color: #FFF;
+    padding: 24px;
 }

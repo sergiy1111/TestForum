@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\app-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\app-logo.jpg"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\app-logo.png",
+      "PackagePath": "staticwebassets\\images\\app-logo.png"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\theme\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\images\\theme\\bg-01.jpg"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\theme\\bg-01.png",
+      "PackagePath": "staticwebassets\\images\\theme\\bg-01.png"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\theme\\font-splash.jpg",
+      "PackagePath": "staticwebassets\\images\\theme\\font-splash.jpg"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\theme\\font-splash.png",
+      "PackagePath": "staticwebassets\\images\\theme\\font-splash.png"
+    },
+    {
       "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

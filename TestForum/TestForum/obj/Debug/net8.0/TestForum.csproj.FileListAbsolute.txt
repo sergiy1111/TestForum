@@ -296,3 +296,4 @@ D:\GitCon\TestForum\TestForum\TestForum\obj\Debug\net8.0\TestForum.genruntimecon
 D:\GitCon\TestForum\TestForum\TestForum\obj\Debug\net8.0\ref\TestForum.dll
 D:\GitCon\TestForum\TestForum\TestForum\bin\Debug\net8.0\TestForum.Service.dll
 D:\GitCon\TestForum\TestForum\TestForum\bin\Debug\net8.0\TestForum.Service.pdb
+D:\GitCon\TestForum\TestForum\TestForum\obj\Debug\net8.0\TestForum.sourcelink.json

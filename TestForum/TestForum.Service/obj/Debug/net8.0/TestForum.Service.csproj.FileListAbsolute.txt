@@ -13,3 +13,4 @@ D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Servi
 D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\refint\TestForum.Service.dll
 D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.pdb
 D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\ref\TestForum.Service.dll
+D:\GitCon\TestForum\TestForum\TestForum.Service\obj\Debug\net8.0\TestForum.Service.sourcelink.json
