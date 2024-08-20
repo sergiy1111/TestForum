@@ -37,6 +37,22 @@
       "PackagePath": "staticwebassets\\images\\theme\\font-splash.png"
     },
     {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\users\\default.png",
+      "PackagePath": "staticwebassets\\images\\users\\default.png"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\users\\user1.png",
+      "PackagePath": "staticwebassets\\images\\users\\user1.png"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\users\\user2.png",
+      "PackagePath": "staticwebassets\\images\\users\\user2.png"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\users\\user3.png",
+      "PackagePath": "staticwebassets\\images\\users\\user3.png"
+    },
+    {
       "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

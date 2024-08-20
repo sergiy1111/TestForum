@@ -37,7 +37,8 @@ namespace TestForum.Controllers
                 PostContent = post.Content,
                 Replies = replies,
                 ForumId = post.Forum.Id,
-                ForumName = post.Forum.Title
+                ForumName = post.Forum.Title,
+                IsAuthorAdmin = IsAuthorAdmin(post.User)
             };
 
             return View(model);
@@ -70,6 +71,12 @@ namespace TestForum.Controllers
             return RedirectToAction("Index", "Post", new { id = post.Id } );
         }
 
+        private bool IsAuthorAdmin(ApplicationUser user)
+        {
+            return _userManager.GetRolesAsync(user)
+                .Result.Contains("Admin");
+        }
+
         private Post BuildModel(NewPostModel model, ApplicationUser? user)
         {
             Forum forum = _forumService.GetById(model.ForumId);
@@ -94,7 +101,8 @@ namespace TestForum.Controllers
                 AuthorRating = reply.User.Rating,
                 Created = reply.Created,
                 ReplyContent = reply.Content,
-                PostId = reply.Post.Id
+                PostId = reply.Post.Id,
+                IsAuthorAdmin = IsAuthorAdmin(reply.User)
             });
         }
     }
