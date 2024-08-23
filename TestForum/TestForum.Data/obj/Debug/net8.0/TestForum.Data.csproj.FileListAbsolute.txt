@@ -26,3 +26,4 @@ D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\refint\TestForum.D
 D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.pdb
 D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.genruntimeconfig.cache
 D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\ref\TestForum.Data.dll
+D:\GitCon\TestForum\TestForum\TestForum.Data\obj\Debug\net8.0\TestForum.Data.sourcelink.json

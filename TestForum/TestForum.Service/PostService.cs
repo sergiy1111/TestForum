@@ -52,9 +52,18 @@ namespace TestForum.Service
                 .First();
         }
 
+        public IEnumerable<Post> GetFilteredPosts(int id,string searchQuerty)
+        {
+            var forum = _context.Forums.Find(id);
+
+            return String.IsNullOrEmpty(searchQuerty) 
+                ? forum.Posts 
+                : forum.Posts.Where(post => post.Title.Contains(searchQuerty) || post.Content.Contains(searchQuerty));
+        }
+
         public IEnumerable<Post> GetFilteredPosts(string searchQuerty)
         {
-            throw new NotImplementedException();
+            return GetAll().Where(post => post.Title.Contains(searchQuerty) || post.Content.Contains(searchQuerty));
         }
 
         public IEnumerable<Post> GetLatestPosts(int number)

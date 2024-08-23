@@ -6,6 +6,7 @@ namespace TestForum.Data
     {
         Post GetById(int id);
         IEnumerable<Post> GetAll();
+        IEnumerable<Post> GetFilteredPosts(int id, string searchQuerty);
         IEnumerable<Post> GetFilteredPosts(string searchQuerty);
         IEnumerable<Post> GetPostsByForum(int id);
         IEnumerable<Post> GetLatestPosts(int number);

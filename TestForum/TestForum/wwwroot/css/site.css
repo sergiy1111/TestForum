@@ -284,7 +284,22 @@ frontPageSubContainer {
     padding: 24px;
 }
 
+/*Forum Topic*/
 
+.searchBar {
+    padding: 3px 5px 2px 12px;
+    margin: 8px;
+    background-color: #333;
+    width: 10%;
+    transition: ease .3s;
+    border: none;
+}
+
+.searchBar:focus{
+    color: black;
+    width: 60%;
+    background-color: #FFF;
+}
 
 /*Buttns*/
 
@@ -351,15 +366,16 @@ frontPageSubContainer {
     color: #FFF !important
 }
 
-.btn-search {
-    background-color: #888 !important;
-    color: #FFF !important;
-    transition: ease-in 0.1s;
-    border-radius: 0px !important;
+.btn-forumSearch {
+    background-color: none !important;
+    border: none;
+    padding: 0 !important;
+    color: #fff !important;
 }
 
-    .btn-search:hover {
-        transition: ease-in 0.1s;
-        background-color: #555 !important;
-        color: #FFF !important
-    }
+.btn-forumSearch:hover {
+    transition: ease-in 0.1s;
+    background-color: #555 !important;
+    color: #FFF !important
+}
+     
