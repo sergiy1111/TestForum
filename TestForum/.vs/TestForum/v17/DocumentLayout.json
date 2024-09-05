@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\GitCon\\TestForum\\TestForum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\models\\applicationuser\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\models\\applicationuser\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|d:\\gitcon\\testforum\\testforum\\testforum.data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03BE6ACD-CEA8-4044-AD6C-DB545B90F26A}|TestForum.Data\\TestForum.Data.csproj|solutionrelative:testforum.data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\views\\profile\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\views\\profile\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\models\\applicationuser\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\models\\applicationuser\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\models\\applicationuser\\profilelistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +74,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Program.cs",
+              "RelativeDocumentMoniker": "TestForum\\Program.cs",
+              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Program.cs",
+              "RelativeToolTip": "TestForum\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T19:10:55.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "TestForum.Data\\DataSeeder.cs",
+              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\DataSeeder.cs",
+              "RelativeToolTip": "TestForum.Data\\DataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T19:10:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Profile\\Detail.cshtml",
               "RelativeDocumentMoniker": "TestForum\\Views\\Profile\\Detail.cshtml",
@@ -78,11 +112,12 @@
               "RelativeToolTip": "TestForum\\Views\\Profile\\Detail.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T19:18:28.248Z"
+              "WhenOpened": "2024-08-23T19:18:28.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "TestForum\\Views\\Profile\\Index.cshtml",
@@ -90,24 +125,25 @@
               "RelativeToolTip": "TestForum\\Views\\Profile\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T19:18:12.591Z"
+              "WhenOpened": "2024-08-23T19:18:12.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "TestForum\\Controllers\\ProfileController.cs",
               "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\ProfileController.cs",
               "RelativeToolTip": "TestForum\\Controllers\\ProfileController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T18:33:02.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ProfileModel.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Models\\ApplicationUser\\ProfileModel.cs",
               "RelativeDocumentMoniker": "TestForum\\Models\\ApplicationUser\\ProfileModel.cs",
@@ -119,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProfileListModel.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Models\\ApplicationUser\\ProfileListModel.cs",
               "RelativeDocumentMoniker": "TestForum\\Models\\ApplicationUser\\ProfileListModel.cs",
@@ -131,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IUpload.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Data\\IUpload.cs",
               "RelativeDocumentMoniker": "TestForum.Data\\IUpload.cs",
@@ -143,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ForumController.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\ForumController.cs",
               "RelativeDocumentMoniker": "TestForum\\Controllers\\ForumController.cs",
@@ -155,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UploadService.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum.Service\\UploadService.cs",
               "RelativeDocumentMoniker": "TestForum.Service\\UploadService.cs",
@@ -167,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TestForum\\Views\\Home\\Index.cshtml",
@@ -179,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Forum\\Index.cshtml",
               "RelativeDocumentMoniker": "TestForum\\Views\\Forum\\Index.cshtml",
@@ -191,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Topic.cshtml",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Forum\\Topic.cshtml",
               "RelativeDocumentMoniker": "TestForum\\Views\\Forum\\Topic.cshtml",
@@ -203,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "SearchController.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Controllers\\SearchController.cs",
               "RelativeDocumentMoniker": "TestForum\\Controllers\\SearchController.cs",
@@ -215,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "HomeIndexModel.cs",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Models\\Home\\HomeIndexModel.cs",
               "RelativeDocumentMoniker": "TestForum\\Models\\Home\\HomeIndexModel.cs",
@@ -227,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Results.cshtml",
               "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Search\\Results.cshtml",
               "RelativeDocumentMoniker": "TestForum\\Views\\Search\\Results.cshtml",

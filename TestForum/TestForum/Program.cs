@@ -20,7 +20,16 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IForum, ForumService>();
 builder.Services.AddScoped<IPost, PostService>();
 
+builder.Services.AddTransient<DataSeeder>();
+
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var seeder = services.GetRequiredService<DataSeeder>();
+    await seeder.SeedSuperUser();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
