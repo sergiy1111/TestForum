@@ -22,6 +22,12 @@ namespace TestForum.Service
             await _context.SaveChangesAsync();
         }
 
+        public async Task AddReply(PostReply reply)
+        {
+            _context.PostReplys.Add(reply);
+            await _context.SaveChangesAsync();
+        }
+
         public Task Delete(int id)
         {
             throw new NotImplementedException();

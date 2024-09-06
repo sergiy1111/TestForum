@@ -12,7 +12,7 @@ namespace TestForum.Controllers
         private readonly IApplicationUser _userService;
         private readonly IUpload _uploadService;
 
-        public ProfileController(UserManager<ApplicationUser> userManager, IApplicationUser userService, IUpload uploadService) 
+        public ProfileController(UserManager<ApplicationUser> userManager, IApplicationUser userService, IUpload uploadService)
         {
             _userManager = userManager;
             _userService = userService;
@@ -29,7 +29,7 @@ namespace TestForum.Controllers
                 UserName = user.UserName,
                 UserRation = user.Rating.ToString(),
                 Email = user.Email,
-                ProfileImageUrl= user.ProfileImageUrl,
+                ProfileImageUrl = user.ProfileImageUrl,
                 MemberSince = user.MemberSince,
                 IsAdmin = userRoles.Contains("Admin")
 

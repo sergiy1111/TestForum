@@ -33,8 +33,8 @@ namespace TestForum.Controllers
             return View(model);
         }
 
-        public IActionResult Topic(int id, string searchQuery) 
-        { 
+        public IActionResult Topic(int id, string searchQuery)
+        {
             var forum = _forumService.GetById(id);
             var posts = new List<Post>();
 
@@ -47,7 +47,7 @@ namespace TestForum.Controllers
             {
                 posts = forum.Posts.ToList();
             }
-            
+
 
             var postListings = posts.Select(post => new PostListingModel
             {
@@ -73,8 +73,39 @@ namespace TestForum.Controllers
         [HttpPost]
         public IActionResult Search(int id, string searchQuery)
         {
-            return RedirectToAction("Topic", new {id, searchQuery});
+            return RedirectToAction("Topic", new { id, searchQuery });
         }
+
+        public IActionResult Create()
+        {
+            var model = new AddForumModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddForum(AddForumModel model)
+        {
+            //Can be updated in future
+            var imageUrl = "/images/users/default.png";
+
+            if (model.ImageUrl != null)
+            {
+                imageUrl = model.ImageUrl;
+            }
+
+            var forum = new Forum
+            {
+                Title = model.Title,
+                Description = model.Description,
+                Created = DateTime.Now,
+                ImageUrl = imageUrl,
+            };
+
+            await _forumService.Create(forum);
+
+            return RedirectToAction("Index", "Forum");
+        }
+
         private ForumListingModel BuildForumListing(Post post)
         {
             var forum = post.Forum;

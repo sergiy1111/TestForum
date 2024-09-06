@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using TestForum.Data;
 using TestForum.Data.Models;
 using TestForum.Models.Post;
+using TestForum.Models.Reply;
 
 namespace TestForum.Controllers
 {

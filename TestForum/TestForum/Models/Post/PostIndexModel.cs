@@ -1,4 +1,5 @@
 ﻿using TestForum.Data.Models;
+using TestForum.Models.Reply;
 
 namespace TestForum.Models.Post
 {
