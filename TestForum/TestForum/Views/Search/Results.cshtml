@@ -14,7 +14,7 @@
             </form>
         </div>
     </div>
-    <div class="row forumIndexContent">
+    <div class="row forumIndexContent" style="background-color: #FFF">
         @if (!Model.EmptySearchResulr)
         {
             <table class="table table-hover table-boredered" id="searchIndexTable">
@@ -24,7 +24,7 @@
                         <tr>
                             <td>
                                 
-                                <div class="forumLogo" style="background-image: url(@post.Forum.ImageUrl)">@post.Forum.Title</div>
+                                <div class="forumLogo" style="background-image: url(@post.Forum.ImageUrl)"></div>
                              
                                 <div class="postData">
                                     <div class="postTitle">
@@ -32,7 +32,7 @@
                                     </div>
                                     <div class="forumSubTitle">
                                         <span class="postAuthor">
-                                            <a asp-controller="Profile" asp-action="Detail" asp-route-id="@post.AuthorId">@post.AuthorName</a>
+                                            <a asp-controller="Profile" asp-action="Details" asp-route-id="@post.AuthorId">@post.AuthorName</a>
                                             @post.AuthorRating
                                         </span>
                                         In: 
@@ -76,5 +76,3 @@
         }
     </script>
 }
-
-

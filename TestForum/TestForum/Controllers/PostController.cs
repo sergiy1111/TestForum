@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TestForum.Data;
 using TestForum.Data.Models;
@@ -11,13 +12,15 @@ namespace TestForum.Controllers
     {
         private readonly IPost _postService;
         private readonly IForum _forumService;
+        private readonly IApplicationUser _userService;
 
         public static UserManager<ApplicationUser> _userManager;
 
-        public PostController(IPost postService, IForum forumService, UserManager<ApplicationUser> userManager)
+        public PostController(IPost postService, IForum forumService, IApplicationUser userService, UserManager<ApplicationUser> userManager)
         {
             _postService = postService;
             _forumService = forumService;
+            _userService = userService;
             _userManager = userManager;
         }
 
@@ -45,6 +48,7 @@ namespace TestForum.Controllers
             return View(model);
         }
 
+        [Authorize]
         public IActionResult Create(int id)
         {
             var forum = _forumService.GetById(id);
@@ -61,13 +65,15 @@ namespace TestForum.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> AddPost(NewPostModel model)
         {
             var userId = _userManager.GetUserId(User);
             var user = _userManager.FindByIdAsync(userId).Result;
             var post = BuildModel(model, user);
 
-            _postService.Add(post).Wait();
+            await _postService.Add(post);
+            await _userService.UpdateUserRating(userId, typeof(Post));
 
             return RedirectToAction("Index", "Post", new { id = post.Id } );
         }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TestForum.Data;
 using TestForum.Data.Models;
@@ -18,6 +19,7 @@ namespace TestForum.Controllers
             _userService = userService;
             _uploadService = uploadService;
         }
+
         public IActionResult Details(string id)
         {
             var user = _userService.GetById(id);
@@ -32,7 +34,28 @@ namespace TestForum.Controllers
                 ProfileImageUrl = user.ProfileImageUrl,
                 MemberSince = user.MemberSince,
                 IsAdmin = userRoles.Contains("Admin")
+            };
 
+            return View(model);
+        }
+
+        [Authorize(Roles = "Admin")]
+        public IActionResult Index()
+        {
+            var profiles = _userService.GetAll()
+                .OrderByDescending(user => user.Rating)
+                .Select(u => new ProfileModel
+                {
+                    Email = u.Email,
+                    UserName = u.UserName,
+                    ProfileImageUrl = u.ProfileImageUrl,
+                    UserRation = u.Rating.ToString(),
+                    MemberSince = u.MemberSince,
+                });
+
+            var model = new ProfileListModel
+            {
+                Profiles = profiles
             };
 
             return View(model);

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TestForum.Data;
 using TestForum.Data.Models;
 using TestForum.Models.Forum;
@@ -16,6 +17,7 @@ namespace TestForum.Controllers
             _forumService = forumService;
             _postService = postService;
         }
+
         public IActionResult Index()
         {
             var forums = _forumService.GetAll()
@@ -23,7 +25,11 @@ namespace TestForum.Controllers
                 {
                     Id = forum.Id,
                     Title = forum.Title,
-                    Description = forum.Description
+                    Description = forum.Description,
+                    NumberOfPosts = forum.Posts?.Count() ?? 0,
+                    NumberOfUsers = _forumService.GetAllActiveUsers(forum.Id).Count(),
+                    ImageUrl = forum.ImageUrl,
+                    HasRecentPost = _forumService.HasRecentPost(forum.Id)
                 });
 
             var model = new ForumIndexModel
@@ -45,9 +51,15 @@ namespace TestForum.Controllers
             }
             else
             {
-                posts = forum.Posts.ToList();
+                if (forum.Posts != null || forum.Posts.Any())
+                {
+                    posts = forum.Posts.ToList();
+                }
+                else
+                {
+                    posts = new List<Post>();
+                }
             }
-
 
             var postListings = posts.Select(post => new PostListingModel
             {
@@ -76,6 +88,7 @@ namespace TestForum.Controllers
             return RedirectToAction("Topic", new { id, searchQuery });
         }
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             var model = new AddForumModel();
@@ -83,6 +96,7 @@ namespace TestForum.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddForum(AddForumModel model)
         {
             //Can be updated in future

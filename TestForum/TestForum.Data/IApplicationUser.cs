@@ -12,7 +12,7 @@ namespace TestForum.Data
         ApplicationUser GetById(string id);
         IEnumerable<ApplicationUser> GetAll();
 
-        Task SetUserProfileImage(string id, Uri uri); 
-        Task IncrementRating (int id, Type type);
+        Task SetUserProfileImage(string id, Uri uri);
+        Task UpdateUserRating(string userId, Type type);
     }
 }

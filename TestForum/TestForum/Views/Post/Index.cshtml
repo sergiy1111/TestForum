@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row" id="postIndexContext">
-        <div class="col-md-3 postAuthorContainer">
+        <div class="col-md-3 replyAuthorContainer">
             <div class="postAuthorImage" style="background-image: url(@Model.AuthorImageUrl);">
                 <a asp-controller="Profile" asp-action="Details" asp-route-id="@Model.AuthorId">
                     @Model.AuthorName
@@ -37,7 +37,7 @@
     <div class="row" id="replyDivider"></div>
     @if (User.Identity.IsAuthenticated)
     {
-        <div class="row">
+        <div class="row" id="postReplyRow">
             <span>
                 <a asp-controller="Reply" asp-action="Create" asp-route-id="@Model.Id" class="btn btn-newReply">
                     Post Reply
@@ -51,7 +51,7 @@
         {
             <div class="row replyContent">
                 <div class="postAuthorImage" style="background-image: url(@reply.AuthorImageUrl)">
-                    <a asp-controller="Profile" asp-action="Detail" asp-route-id="@reply.AuthorId">
+                    <a asp-controller="Profile" asp-action="Details" asp-route-id="@reply.AuthorId">
                         @reply.AuthorName
                     </a>
                     @if (reply.IsAuthorAdmin)
@@ -59,7 +59,7 @@
                         <div class="isAdmin smaller">Admin</div>
                         <br />
                     }
-                    <span>@reply.Created</span>
+                    <span class="postData">@reply.Created</span>
                 </div>
                 <div class="col-md-9 replyContentContainer">
                     <div class="postContent">

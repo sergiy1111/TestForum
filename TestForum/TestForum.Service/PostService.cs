@@ -69,7 +69,8 @@ namespace TestForum.Service
 
         public IEnumerable<Post> GetFilteredPosts(string searchQuerty)
         {
-            return GetAll().Where(post => post.Title.Contains(searchQuerty) || post.Content.Contains(searchQuerty));
+            var normalized = searchQuerty.ToLower();
+            return GetAll().Where(post => post.Title.ToLower().Contains(normalized) || post.Content.ToLower().Contains(normalized));
         }
 
         public IEnumerable<Post> GetLatestPosts(int number)

@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitCon\\TestForum\\TestForum\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|d:\\gitcon\\testforum\\testforum\\testforum\\views\\forum\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5EF0CCD-AA9E-43DC-8F31-A9CE37500E6B}|TestForum\\TestForum.csproj|solutionrelative:testforum\\views\\forum\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Forum\\Create.cshtml",
-              "RelativeDocumentMoniker": "TestForum\\Views\\Forum\\Create.cshtml",
-              "ToolTip": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\Views\\Forum\\Create.cshtml",
-              "RelativeToolTip": "TestForum\\Views\\Forum\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T20:54:20.33Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -1,23 +1,43 @@
 body {
-  padding: 0 0 20px 0;
-  background-color: #EEE;
-  background-image: url("/images/theme/bg-01.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+    padding: 0 0 20px 0;
+    background-color: #EEE;
+    background-image: url("/images/theme/bg-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-.navbar {
-
+.navbar-nav {
+    margin: 0;
 }
 
-.navbar li{
-    margin-right: 10pt;
-    margin-left: 10pt;
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
     font-weight: bold;
-
+    transition: background-color 0.3s, color 0.3s;
 }
+
+.navbar-nav .nav-link:hover {
+    background-color: #eee;
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Вирівнювання лівих елементів після логотипу */
+.navbar .d-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Налаштування відступів */
+.ms-2 {
+    margin-left: 8px;
+}
+
 
 .sectionHeader{
     background-color: rgba(0, 0, 0, 0.9);
@@ -166,8 +186,8 @@ frontPageSubContainer {
 }
 
 .postAuthorImage {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     background-size: 100%
 }
 
@@ -297,15 +317,85 @@ frontPageSubContainer {
     font-size: 1.7em;
 }
 
-/*Post*/
+.userProfilePic{
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
 
-.createPostSection{
+/*Replies*/
+
+.replyContent{
+    display: table;
+    background-color: #FFF;
+    border-bottom: 1px solid #AAA;
+    width: inherit;
+}
+
+.replyContentContainer, .replyAuthorContainer {
+    display: table-cell;
+    padding: 12px;
+}
+
+#replyDivider{
+    height: 2px;
+    margin-block: 12px;
+}
+
+#postReplyRow {
+    background-color: #3F51B5;
+    padding: 8px;
+}
+
+.isAdmin{
+    display: inline-block;
+    padding: 3px;
+    background-color: #FFEB3B;
+    color: black;
+    font-family: Roboto;
+    border-radius: 10px;
+}
+
+.smaller {
+    font-size: 0.8e
+}
+
+#userProfileImage {
+    background-size: 100%;
+}
+
+#originalPost{
+    background-color: #FFF;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.hasRecentPost {
+    padding: 2px;
+    background-color: #FE552F;
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    width: 30px;
+}
+
+/*Post*/
+.createPostSection {
     background-color: #FFF;
     padding: 24px;
 }
 
-/*Forum Topic*/
+.authorBlock{
+    padding: 18px;
+    border: 1px dashed #00AFCF;
+    margin-bottom: 8px;
+}
 
+.noBorder{
+    border: none;
+}
+
+/*Forum Topic*/
 .searchBar {
     padding: 3px 5px 2px 12px;
     margin: 8px;
@@ -323,30 +413,20 @@ frontPageSubContainer {
 
 /*Buttns*/
 
-.btn-back{
-    background-color: #555;
-    color: #fff !important;
-    transition: ease-in 0.1s;
-    border-radius: 0px !important;
-}
-
-.btn-back:hover{
-    transition: ease-in 0.1s;
-    background-color: #1E88E5 !important
-}
-
+.btn-back,
+.btn-submitPost,
+.btn-newPost,
 .btn-newReply {
-    background-color: #5C6BC0 !important;
-    color: #FFF !important;
-    transition: ease-in 0.1s;
-    border-radius: 0px !important;
-    margin-top: 15pt
+    transition: background-color 0.2s, color 0.2s;
 }
 
-.btn-newReply:hover{
-    background-color: #9FA8DA !important;
-    transition: ease-in 0.1s;
-}
+    .btn-back:hover {
+        background-color: #1E88E5 !important;
+    }
+
+    .btn-newReply:hover {
+        background-color: #9FA8DA !important;
+    }
 
 .btn-file{
     color: white;
@@ -360,30 +440,12 @@ frontPageSubContainer {
     transition: ease 0.3s;
 }
 
-.btn-newPost {
-    background-color: #C62828;
-    color: #FFF !important;
-    transition: ease-in 0.1s;
-    border-radius: 0px !important;
-}
-
-.btn-newPost:hover{
-    transition: ease-in 0.1s;
+.btn-newPost:hover {
     background-color: #E53935 !important;
-    color: #FFF !important;
-}
-
-.btn-submitPost {
-    background-color: #00695C !important;
-    color: #FFF !important;
-    transition: ease-in 0.1s;
-    border-radius: 0px !important;
 }
 
 .btn-submitPost:hover {
-    transition: ease-in 0.1s;
     background-color: #00897B !important;
-    color: #FFF !important
 }
 
 .btn-forumSearch {
