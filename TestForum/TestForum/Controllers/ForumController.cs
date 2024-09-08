@@ -4,6 +4,7 @@ using TestForum.Data;
 using TestForum.Data.Models;
 using TestForum.Models.Forum;
 using TestForum.Models.Post;
+using TestForum.Service;
 
 namespace TestForum.Controllers
 {
@@ -11,11 +12,13 @@ namespace TestForum.Controllers
     {
         private readonly IForum _forumService;
         private readonly IPost _postService;
+        private readonly IUpload _uploadService;
 
-        public ForumController(IForum forumService, IPost postService)
+        public ForumController(IForum forumService, IPost postService, IUpload uploadService)
         {
             _forumService = forumService;
             _postService = postService;
+            _uploadService = uploadService;
         }
 
         public IActionResult Index()
@@ -99,23 +102,24 @@ namespace TestForum.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddForum(AddForumModel model)
         {
-            //Can be updated in future
-            var imageUrl = "/images/users/default.png";
-
-            if (model.ImageUrl != null)
-            {
-                imageUrl = model.ImageUrl;
-            }
-
             var forum = new Forum
             {
                 Title = model.Title,
                 Description = model.Description,
                 Created = DateTime.Now,
-                ImageUrl = imageUrl,
+                ImageUrl = "/images/forums/default.png",
             };
 
             await _forumService.Create(forum);
+
+            if (model.Image != null && model.Image.Length > 0) 
+            {
+                var fileName = $"forum_{forum.Id}"; 
+                var imageUrl = await _uploadService.UploadImageAsync(model.Image, fileName, ImageType.Forum);
+                forum.ImageUrl = imageUrl;
+
+                await _forumService.Update(forum); 
+            }
 
             return RedirectToAction("Index", "Forum");
         }

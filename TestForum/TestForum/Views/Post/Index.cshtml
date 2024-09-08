@@ -51,7 +51,8 @@
         foreach(var reply in Model.Replies)
         {
             <div class="row replyContent">
-                <div class="postAuthorImage" style="background-image: url(@reply.AuthorImageUrl)">
+                <div class="postAuthorImage" style="background-image: url(@reply.AuthorImageUrl)"></div>
+                 <div class="postAuthorImage">
                     <a asp-controller="Profile" asp-action="Details" asp-route-id="@reply.AuthorId">
                         @reply.AuthorName
                     </a>

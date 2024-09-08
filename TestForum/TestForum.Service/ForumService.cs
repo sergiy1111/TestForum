@@ -64,6 +64,12 @@ namespace TestForum.Service
             return GetById(id).Posts.Any(post => post.Created > window);
         }
 
+        public async Task Update(Forum forum)
+        {
+            _context.Forums.Update(forum);
+            await _context.SaveChangesAsync();
+        }
+
         public Task UpdateForumDescription(int forumId, string newDescription)
         {
             throw new NotImplementedException();

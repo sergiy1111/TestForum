@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 using TestForum.Data;
 using TestForum.Data.Models;
 using TestForum.Models.ApplicationUser;
+using TestForum.Service;
 
 namespace TestForum.Controllers
 {
@@ -37,6 +40,31 @@ namespace TestForum.Controllers
             };
 
             return View(model);
+        }
+
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> UploadProfileImage(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+            {
+                ModelState.AddModelError("", "Please select an image file to upload.");
+                return RedirectToAction("Details", new { id = _userManager.GetUserId(User) });
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var fileName = $"user_{user.Id}"; // Використовуємо ID користувача для назви файлу
+            var imageUrl = await _uploadService.UploadImageAsync(file, fileName, ImageType.Profile);
+
+            user.ProfileImageUrl = imageUrl;
+            await _userManager.UpdateAsync(user);
+
+            return RedirectToAction("Details", new { id = user.Id });
         }
 
         [Authorize(Roles = "Admin")]

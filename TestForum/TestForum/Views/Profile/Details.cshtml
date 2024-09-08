@@ -9,9 +9,9 @@
             User Profile
         </div>
     </div>
-    <div class="row userProfile">
-        <div class="col-md-4">
-            <div id="userProfileImage" style="background-image: url(@Model.ProfileImageUrl)"></div>
+    <div class="row userProfile" style="padding: 32px 0 128px 24px;">
+        <div class="col-md-4" >
+            <div id="userProfileImage" style="background-image: url(@Model.ProfileImageUrl); background-size: 100%; width: 100%; height: 100%"></div>
             @if (User.Identity.Name == Model.UserName)
             {
                 <form method="post" enctype="multipart/form-data" asp-controller="Profile" asp-action="UploadProfileImage">
@@ -20,7 +20,7 @@
                             Browse <input type="file" name="file" style="display: none" />
                         </label>
                     </div>
-                    <button type="submit" id="btn-profile" class="btn btn-default">Submit</button>
+                    <button type="submit" id="btn-profile" class="btn btn-default" style="background-color: forestgreen; width: 100%; ">Submit</button>
                 </form>
             }
         </div>

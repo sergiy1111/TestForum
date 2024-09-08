@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\images\\app-logo.png"
     },
     {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\forums\\forum_2.png",
+      "PackagePath": "staticwebassets\\images\\forums\\forum_2.png"
+    },
+    {
+      "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\profiles\\user_de50f16b-2867-46fc-96eb-de7b7ee95a12.png",
+      "PackagePath": "staticwebassets\\images\\profiles\\user_de50f16b-2867-46fc-96eb-de7b7ee95a12.png"
+    },
+    {
       "Id": "D:\\GitCon\\TestForum\\TestForum\\TestForum\\wwwroot\\images\\theme\\bg-01.jpg",
       "PackagePath": "staticwebassets\\images\\theme\\bg-01.jpg"
     },

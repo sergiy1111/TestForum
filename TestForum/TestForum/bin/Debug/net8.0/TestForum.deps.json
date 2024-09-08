@@ -626,6 +626,12 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "System.IO.Pipelines": "7.0.0"
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.8": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "8.0.8",
@@ -2150,6 +2156,7 @@
       },
       "TestForum.Data/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
@@ -2557,6 +2564,13 @@
       "sha512": "sha512-mdiL7yWCBhazRnXg95+Iack472JbGxWG2jvK/tw+Z3NCbzuI61qZ/ROJAHxh3wzQCCCjiSe/elh/kGFBe6v2ww==",
       "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.5",
       "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.5.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.8": {
       "type": "package",

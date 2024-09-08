@@ -9,6 +9,7 @@ namespace TestForum.Data
         IEnumerable<Forum> GetAll();
 
         Task Create(Forum forum);
+        Task Update(Forum forum);
         Task Delete(int forumId);
         Task UpdateForumTitle(int forumId, string newTitle);
         Task UpdateForumDescription(int forumId, string newDescription);
