@@ -13,20 +13,21 @@
     </div>
     <div class="row" id="postIndexContext">
         <div class="col-md-3 replyAuthorContainer">
-            <div class="postAuthorImage" style="background-image: url(@Model.AuthorImageUrl);">
-                <a asp-controller="Profile" asp-action="Details" asp-route-id="@Model.AuthorId">
-                    @Model.AuthorName
-                </a>
-                <span class="postData">
-                    @Model.Created
+            <div class="postAuthorImage" style="background-image: url(@Model.AuthorImageUrl);"></div>
+            <a asp-controller="Profile" asp-action="Details" asp-route-id="@Model.AuthorId">
+                @Model.AuthorName
+            </a>
+            <br />
+            <span class="postData">
+                @Model.Created
+            </span>
+            @if (Model.IsAuthorAdmin)
+            {
+                <span class="isAdmin smaller">
+                    Admin
                 </span>
-                @if (Model.IsAuthorAdmin)
-                {
-                    <span class="isAdmin smaller">
-                        Admin
-                    </span>
-                }
-            </div>
+            }
+            
             <div class="col-md-9 postContentContainer">
                 <div class="postContent">
                     @Html.Raw(Model.PostContent)

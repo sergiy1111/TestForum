@@ -131,7 +131,8 @@ namespace TestForum.Areas.Identity.Pages.Account
             {
                 var user = new ApplicationUser
                 {
-                    MemberSince = DateTime.Now  
+                    MemberSince = DateTime.Now,
+                    ProfileImageUrl = "/images/users/default_user_picture.png"
                 };
                 return user;
             }

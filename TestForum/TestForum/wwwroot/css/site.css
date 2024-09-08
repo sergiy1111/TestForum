@@ -222,15 +222,13 @@ frontPageSubContainer {
 
 .postHeading{
     background-color: #212121;
-    padding: 8px 0 24px 24px;
+    padding-left: 12px;
 }
 
 #headingBtn{
     float: right;
     margin-right: 20px
 }
-
-
 
 /*Forum Index*/
 
@@ -329,7 +327,7 @@ frontPageSubContainer {
     display: table;
     background-color: #FFF;
     border-bottom: 1px solid #AAA;
-    width: inherit;
+    width: 102%
 }
 
 .replyContentContainer, .replyAuthorContainer {
@@ -343,7 +341,6 @@ frontPageSubContainer {
 }
 
 #postReplyRow {
-    background-color: #3F51B5;
     padding: 8px;
 }
 
@@ -413,13 +410,16 @@ frontPageSubContainer {
 
 /*Buttns*/
 
-.btn-back,
-.btn-submitPost,
-.btn-newPost,
-.btn-newReply {
+.btn-back{
     transition: background-color 0.2s, color 0.2s;
+    color: #FFF;
+    background-color: #555555;
 }
 
+.btn-submitPost, .btn-newPost, .btn-newReply {
+    transition: background-color 0.2s, color 0.2s;
+    background-color: forestgreen
+}
     .btn-back:hover {
         background-color: #1E88E5 !important;
     }

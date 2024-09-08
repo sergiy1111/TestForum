@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestForum.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c877b6f46d5483b155acac885f83018ea838713a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2b24a4913bf2f4278f241400d871413f4c9c9d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestForum.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestForum.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
